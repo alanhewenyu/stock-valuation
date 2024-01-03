@@ -21,9 +21,27 @@ DCF模型通常需要对公司的财务报表做详细预测，这一工作量�
 
 ### DCF估值模版
 
-本项目按照上述DCF模型搭建了计算表（stock valuation template）。计算表中的大多数数据都通过万得API自动抓取并输入，仅有少数参数需要通过电脑终端引导输入。
+本项目按照上述DCF模型搭建了计算表（stock valuation template）,请下载计算表，并放入要计算存放估值结果的文件路径。
+
+计算表中的大多数数据都通过万得API自动抓取并输入，仅有少数参数需要通过电脑终端引导输入。
 
 程序运行结束后，计算表数据更新完毕，即可算出股票的合理价格。计算表会基于两个核心参数--收入增长率和经营利润率，对估值结果进一步做敏感性分析。
+
+### 具体运行步骤如下：
+
+本项目在电脑终端运行：
+
+(1) 下载stock.py和stock valuation template.xlsx
+
+(2) 修改stock.py中的file route。file route为存放stock valuation template.xlsx的路径。
+
+(3) 运行 python stock.py
+
+(4) 根据提示输入股票代码，生成股票过去5年关键财务指标，以辅助判断未来预测指标
+
+(5) 按照终端提示，输入估值参数
+
+(6) 估值计算表自动更新
 
 ### 需要手工输入的参数可分为四大项，12个：
 
@@ -59,20 +77,5 @@ Return on new invested capital for the long term（判断选项，长期资本�
 
 Effective tax rate （有效税率）
 
-### 具体运行步骤如下：
-
-本项目在电脑终端运行：
-
-(1) 下载stock.py和stock valuation template.xlsx
-
-(2) 修改stock.py中的file route。file route为存放stock valuation template.xlsx的路径。
-
-(3) 运行 python stock.py
-
-(4) 根据提示输入股票代码，生成股票过去5年关键财务指标，以辅助判断未来预测指标
-
-(5) 按照终端提示，输入估值参数
-
-(6) 估值计算表自动更新
 
 ## 如需了解更多关于公司估值方面的知识，欢迎关注本人微信公众号《见山笔记》。
