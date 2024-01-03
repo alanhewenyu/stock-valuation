@@ -31,17 +31,17 @@ DCF模型通常需要对公司的财务报表做详细预测，这一工作量�
 
 本项目在电脑终端运行：
 
-(1) 下载stock.py和stock valuation template.xlsx
+(1) 下载stock.py和stock valuation template.xlsx；
 
-(2) 修改stock.py中的file route。file route为存放stock valuation template.xlsx的路径。
+(2) 修改stock.py中的file route。file route为存放stock valuation template.xlsx的路径；
 
-(3) 运行 python stock.py
+(3) 运行 python stock.py；
 
-(4) 根据提示输入股票代码，生成股票过去5年关键财务指标，以辅助判断未来预测指标
+(4) 根据提示输入股票代码，生成股票过去5年关键财务指标，以辅助判断未来预测指标；
 
-(5) 按照终端提示，输入估值参数
+(5) 按照终端提示，输入估值参数；
 
-(6) 估值计算表自动更新
+(6) 估值计算表自动更新。
 
 ### 需要手工输入的参数可分为四大项，12个：
 
