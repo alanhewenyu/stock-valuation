@@ -78,4 +78,9 @@ Return on new invested capital for the long term（判断选项，长期资本�
 Effective tax rate （有效税率）
 
 
-## 如需了解更多关于公司估值方面的知识，欢迎关注本人微信公众号《见山笔记》。
+## 如需了解更多关于公司估值方面的知识，欢迎关注：
+
+微信公众号：见山笔记
+
+博客：hewenyu.co
+
